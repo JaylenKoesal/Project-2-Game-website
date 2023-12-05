@@ -1,62 +1,82 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #2b2b49;
-    color: white;
+h2{
+  text-align: center;
+  color: rgb(255, 157, 0);
 }
 
-header {
-    background-color: #1e1d49;
-    padding: 20px;
-    text-align: center;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+
+footer {
+  background-color: #000000; /* Dark green color */
+  color: rgb(255, 157, 0); /* White text color */
+  text-align: center;
+  padding: 10px;
+  position: bottom;
+  bottom: 5px;
+  width: 100%;
+}
+
+img{
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 nav {
-    background-color: #1e1d49;
-    overflow: hidden;
+  background-color: #000000; /* Dark green color */
+  padding: 30px;
+  text-align: center;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 li {
-    display: inline-block;
-    position: relative;
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 20px;
 }
 
 a {
-    display: block;
-    padding: 15px 25px;
-    color: white;
-    text-decoration: none;
+  color: rgb(255, 157, 0); /* White text color */
+  text-decoration: none;
+  padding: 10px;
 }
 
 a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #3b3b3b; /* Dark greenish color on hover */
 }
 
-.dropdown {
-    display: none;
-    position: absolute;
-    background: #1e1d49;
+/* Dropdown styles */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000; /* Dark green color for dropdown */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 999; /* Ensure the dropdown appears above other content */
 }
 
-li:hover .dropdown {
-    display: block;
+li:hover .dropdown-content {
+  display: block; /* Show the dropdown content on hover */
 }
 
-footer {
-    background-color: #1e1d49;
-    display: flex;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    justify-content: space-around;
+.dropdown-content a {
+  color: rgb(255, 157, 0);
+  padding: 20px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #00796b;
 }
