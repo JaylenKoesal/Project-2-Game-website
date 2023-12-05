@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<h2>Gaming Website</h2>
+<body>
+
+<nav>
+      <li><a href="Homepage.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="favorite.html">Favorite Game</a></li>
+      <li><a href="uitleg.html">Uitleg Games</a></li>
+      <li><a href="play.html">Play Game</a></li>
+      <li class="dropdown">
+          <a href="ons">Over Ons</a>
+          <div class="dropdown-content">
+              <a href="#">Jaylen</a>
+              <a href="#">Furkan</a>
+          </div>
+      </li>
+      <li><a href="goedendoel.html">Goedendoel</a></li>
+</nav>
+
+<main>
+    <div class="display-area" id="display-area">
+        <!-- Content will be displayed here based on button clicks -->
+    </div>
+
+    <button onclick="showPhoto()">Photo</button>
+    <button onclick="showContact()">Contact</button>
+    <button onclick="showPitch()">Pitch</button>
+    <button onclick="showExperience()">Experience</button>
+    <button onclick="showEducation()">Education</button>
+    <button onclick="showSkills()">Skills</button>
+</main>
+
+<script>
+    function showPhoto() {
+        document.getElementById('display-area').innerHTML = '<img src="your-photo.jpg" alt="Your Photo">';
+    }
+
+    function showContact() {
+        document.getElementById('display-area').innerHTML = '<p>Contact Information: your.email@example.com</p>';
+    }
+
+    function showPitch() {
+        document.getElementById('display-area').innerHTML = '<p>Your Video Pitch Goes Here</p>';
+    }
+
+    function showExperience() {
+        document.getElementById('display-area').innerHTML = '<p>Your Work Experience Goes Here</p>';
+    }
+
+    function showEducation() {
+        document.getElementById('display-area').innerHTML = '<p>Your Education Information Goes Here</p>';
+    }
+
+    function showSkills() {
+        document.getElementById('display-area').innerHTML = '<p>Your Programming Skills Go Here</p>';
+    }
+</script>
+
+</body>
+</html>
+
+
+</body>
+
+<footer>
+    <h3>Contact</h3>
+    <p>Support</p>
+    <p>Copyright</p>
+  </footer>
+
+</html>
+
