@@ -1,0 +1,149 @@
+h2{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(145, 40, 49)
+}
+
+p{
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  background-color: #7a2828; /* Dark green color */
+  color: rgb(255, 255, 255); /* White text color */
+  text-align: center;
+  padding: 10px;
+  position: bottom;
+  bottom: 5px;
+  width: 100%;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #7a2828; /* Dark green color */
+  padding: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 20px;
+}
+
+a {
+  color: rgb(255, 255, 255); /* White text color */
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #3b3b3b; /* Dark greenish color on hover */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 0, 0); /* Dark green color for dropdown */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 999; /* Ensure the dropdown appears above other content */
+}
+
+li:hover .dropdown-content {
+  display: block; /* Show the dropdown content on hover */
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+<<<<<<< HEAD
+  background-color: #383838;
+=======
+  background-color: #963d3d;
+>>>>>>> 07622bf7a66858019b8511c7fefb0926a9b31583
+}
+
+script{
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display-area {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.FavorietenImages {
+  padding: 10px; /* Adjust padding for all sides */
+}
+
+.FavorietenImages2 {
+  padding: 10px; /* Adjust padding for all sides */
+}
+
+.FavorietenImages,
+.FavorietenImages2,
+.FavorietenImages3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+p{
+  text-align: center;
+}
+
