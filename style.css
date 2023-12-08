@@ -1,22 +1,27 @@
 h2{
   text-align: center;
-  color: rgb(255, 157, 0);
+  color: rgb(255, 255, 255);
+}
+
+h1{
+  text-align: center;
+  color: white;
 }
 
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #161616;
+  background-color: rgb(145, 40, 49)
 }
 
 p{
-  color: rgb(255, 157, 0);
+  color: rgb(255, 255, 255);
 }
 
 footer {
-  background-color: #000000; /* Dark green color */
-  color: rgb(255, 157, 0); /* White text color */
+  background-color: #7a2828; /* Dark green color */
+  color: rgb(255, 255, 255); /* White text color */
   text-align: center;
   padding: 10px;
   position: bottom;
@@ -24,9 +29,6 @@ footer {
   width: 100%;
 }
 
-img{
-  width: 100%;
-}
 
 body {
   margin: 0;
@@ -34,7 +36,7 @@ body {
 }
 
 nav {
-  background-color: #000000; /* Dark green color */
+  background-color: #7a2828; /* Dark green color */
   padding: 30px;
   text-align: center;
 }
@@ -52,7 +54,7 @@ li {
 }
 
 a {
-  color: rgb(255, 157, 0); /* White text color */
+  color: rgb(255, 255, 255); /* White text color */
   text-decoration: none;
   padding: 10px;
 }
@@ -65,7 +67,7 @@ a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #000000; /* Dark green color for dropdown */
+  background-color: rgb(0, 0, 0); /* Dark green color for dropdown */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 999; /* Ensure the dropdown appears above other content */
 }
@@ -75,13 +77,13 @@ li:hover .dropdown-content {
 }
 
 .dropdown-content a {
-  color: rgb(255, 157, 0);
+  color: rgb(255, 255, 255);
   padding: 20px;
   display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #3b3d3d;
+  background-color: #963d3d;
 }
 
 script{
@@ -111,7 +113,7 @@ main {
 
 button {
   background-color: #333;
-  color: rgb(255, 157, 0);
+  color: rgb(255, 255, 255);
   padding: 10px;
   margin: 5px;
   border: none;
@@ -122,8 +124,19 @@ button:hover {
   background-color: #555;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
+.FavorietenImages {
+  padding: 10px; /* Adjust padding for all sides */
 }
+
+.FavorietenImages2 {
+  padding: 10px; /* Adjust padding for all sides */
+}
+
+.FavorietenImages,
+.FavorietenImages2,
+.FavorietenImages3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
