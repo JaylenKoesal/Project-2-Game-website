@@ -12,7 +12,7 @@ h1{
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: rgb(145, 40, 49)
+  background-color: rgb(65, 22, 69)
 }
 
 p{
@@ -20,7 +20,7 @@ p{
 }
 
 footer {
-  background-color: #7a2828; /* Dark green color */
+  background-color: rgb(100, 35, 106); /* Dark green color */
   color: rgb(255, 255, 255); /* White text color */
   text-align: center;
   padding: 10px;
@@ -36,7 +36,7 @@ body {
 }
 
 nav {
-  background-color: #7a2828; /* Dark green color */
+  background-color: rgb(100, 35, 106); /* Dark green color */
   padding: 30px;
   text-align: center;
 }
