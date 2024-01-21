@@ -1,42 +1,31 @@
-h2{
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-h1{
-  text-align: center;
-  color: white;
-}
-
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: rgb(65, 22, 69)
+  background-color: rgb(65, 22, 69);
+  color: rgb(255, 255, 255);
 }
 
 p{
-  color: rgb(255, 255, 255);
-}
-
-footer {
-  background-color: rgb(100, 35, 106); /* Dark green color */
-  color: rgb(255, 255, 255); /* White text color */
   text-align: center;
-  padding: 10px;
-  position: bottom;
-  bottom: 5px;
-  width: 100%;
 }
 
+.welcome {
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: -1;}
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+h1{
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 nav {
-  background-color: rgb(100, 35, 106); /* Dark green color */
+  background-color: rgb(100, 35, 106);
   padding: 30px;
   text-align: center;
 }
@@ -45,35 +34,33 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 li {
-  display: inline-block; /* Display list items horizontally */
+  display: inline-block;
   margin-right: 20px;
 }
 
 a {
-  color: rgb(255, 255, 255); /* White text color */
+  color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px;
 }
 
 a:hover {
-  background-color: #3b3b3b; /* Dark greenish color on hover */
+  background-color: #3b3b3b;
 }
 
-/* Dropdown styles */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(0, 0, 0); /* Dark green color for dropdown */
+  background-color: rgb(0, 0, 0);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 999; /* Ensure the dropdown appears above other content */
+  z-index: 999;
 }
 
 li:hover .dropdown-content {
-  display: block; /* Show the dropdown content on hover */
+  display: block;
 }
 
 .dropdown-content a {
@@ -83,40 +70,40 @@ li:hover .dropdown-content {
 }
 
 .dropdown-content a:hover {
-<<<<<<< HEAD
   background-color: #383838;
-=======
-  background-color: #963d3d;
->>>>>>> 07622bf7a66858019b8511c7fefb0926a9b31583
-}
-
-script{
-  color: white;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-
 }
 
 main {
-  max-width: 800px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
   background-color: rgb(0, 0, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.display-area {
-  border: 1px solid #ccc;
+.game-container,
+.portfolio-container {
+  flex-basis: 45%;
+}
+
+.game-container canvas {
+  border: 2px solid black;
+  display: block;
+  margin: auto;
+  background-color: white;
+}
+
+.portfolio-container .display-box {
+  background-color: #333;
   padding: 20px;
-  margin-top: 20px;
+  margin: 20px;
+  border-radius: 10px;
 }
 
 button {
-  background-color: #333;
+  background-color: rgb(100, 35, 106);
   color: rgb(255, 255, 255);
   padding: 10px;
   margin: 5px;
@@ -125,25 +112,46 @@ button {
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #3b3b3b;
 }
 
-.FavorietenImages {
-  padding: 10px; /* Adjust padding for all sides */
+footer {
+  background-color: rgb(100, 35, 106);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
 }
 
-.FavorietenImages2 {
-  padding: 10px; /* Adjust padding for all sides */
+canvas {
+  border: 2px solid black;
+  display: block;
+  margin: auto;
+  background-color: white; /* Achtergrondkleur van het canvas */
 }
 
-.FavorietenImages,
-.FavorietenImages2,
-.FavorietenImages3 {
-  display: inline-block;
-  vertical-align: top;
-}
-
-p{
+#game-controls {
   text-align: center;
 }
 
+.panda{
+  text-align: center;
+}
+
+button {
+  background-color: rgb(100, 35, 106); /* Dezelfde kleur als de navbar */
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3b3b3b;
+}
+
+#scoreBoard, #highScoreBoard {
+  color: white;
+  margin-top: 10px;
+}
