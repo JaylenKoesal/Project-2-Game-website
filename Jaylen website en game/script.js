@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(gameInterval);
         }
         // Start de gameInterval bij het starten van het spel
-        gameInterval = setInterval(move, 150);
+        gameInterval = setInterval(move, 120);
     }
 
     document.addEventListener('keydown', handleKeyPress);

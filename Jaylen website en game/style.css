@@ -135,7 +135,7 @@ canvas {
 }
 
 .panda{
-  text-align: center;
+  justify-content: center;
 }
 
 button {
